@@ -109,8 +109,7 @@ a {
     margin-bottom: 10px;
 }
 
-.descricao,
-.preco {
+.descricao, .preco {
     font-size: x-large;
     color: black;
     margin: 10px 0;
@@ -127,7 +126,7 @@ a {
 .b_carrinho {
     font-size: 1.2rem;
     background-color: rgb(211, 75, 75);
-    color: rgb(161, 161, 161);
+    color: rgb(78, 78, 78);
     text-decoration: none;
     padding: 15px 25px;
     border-radius: 40px;
@@ -149,7 +148,7 @@ a {
             "braco"
             "corpo"
             "peh";
-        grid-template-rows: 100px 50px auto 100px;
+        grid-template-rows: 100px 80px auto 100px;
         grid-template-columns: auto;
     }
 }
